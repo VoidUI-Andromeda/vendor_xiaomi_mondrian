@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/mondrian
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/mondrian/proprietary/product/etc/device_features/mondrian.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/mondrian.xml \
     vendor/xiaomi/mondrian/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/mondrian/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/mondrian/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
