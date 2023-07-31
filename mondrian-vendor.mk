@@ -11,7 +11,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/mondrian/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/mondrian/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/xiaomi/mondrian/proprietary/system/lib/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdolbyottcontrol.so \
+    vendor/xiaomi/mondrian/proprietary/system/lib/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdovi_omx.so \
+    vendor/xiaomi/mondrian/proprietary/system/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/mondrian/proprietary/system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
+    vendor/xiaomi/mondrian/proprietary/system/lib64/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdolbyottcontrol.so \
+    vendor/xiaomi/mondrian/proprietary/system/lib64/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdovi_omx.so \
+    vendor/xiaomi/mondrian/proprietary/system/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/mondrian/proprietary/system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/mondrian/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/mondrian/proprietary/system_ext/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/tcmd \
