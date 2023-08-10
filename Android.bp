@@ -72,6 +72,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "colorservice",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/colorservice/colorservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "workloadclassifier",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/workloadclassifier/workloadclassifier.apk",
@@ -146,6 +157,13 @@ dex_import {
 	name: "UxPerformance",
 	owner: "xiaomi",
 	jars: ["proprietary/system/framework/UxPerformance.jar"],
+}
+
+dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
+	product_specific: true,
 }
 
 dex_import {
